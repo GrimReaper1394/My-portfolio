@@ -1,0 +1,33 @@
+/* resume css */
+.resume-right-col {
+    background: #27221F;
+    color: white;
+    padding: 2em;
+}
+
+.Maindiv
+	{
+		background-color: #006699;
+		color: #fff;
+		height: 400px;
+		width: 600px;
+		margin: 0px auto;
+        padding: 5px;
+        margin: 10px;
+	}
+	.resume-left-col
+	{
+		background-color: #efefef;
+		color: #000;
+		height: 400px;
+		width: 48%;
+		float: left;
+	}
+	.resume-right-col
+	{
+		background-color: #efefef;
+		color: #000;
+		height: 400px;
+		width: 48%;
+		float: right;
+	}	

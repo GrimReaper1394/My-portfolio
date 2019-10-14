@@ -1,0 +1,52 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "delay": "^4.3.0",
+    "faker": "^4.1.0",
+    "lodash-es": "^4.17.15",
+    "primeicons": "^2.0.0",
+    "primereact": "^3.2.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-elastic-carousel": "^0.3.0",
+    "react-mdl": "^1.11.0",
+    "react-responsive-carousel": "^3.1.50",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.1.2",
+    "react-slick": "^0.25.2",
+    "react-spring": "^8.0.27",
+    "react-spring-3d-carousel": "^1.1.4",
+    "react-use-gesture": "^6.0.1",
+    "semantic-ui-react": "^0.88.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^5.5.0",
+    "@semantic-ui-react/craco-less": "^1.1.0",
+    "semantic-ui-less": "^2.4.1"
+  }
+}

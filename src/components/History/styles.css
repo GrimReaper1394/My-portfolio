@@ -1,0 +1,8 @@
+.CarouselImg{
+  height: 600px;
+  display: flex;
+  -webkit-filter: grayscale(100%) blur(2px);
+  filter: grayscale(100%) blur(2px);
+  transition: .4s ease-in-out;
+}
+

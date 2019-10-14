@@ -1,0 +1,65 @@
+/* .card-body{
+    background:radial-gradient(#050833, #00bec5, #ff0bac, #54086b);
+} */
+
+
+/* card body config */
+.card{
+ width: 20rem;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    min-height: 30rem;
+    margin: 3px;  
+}
+
+/* on hover animations  */
+.card:hover{
+    box-shadow: 10px 10px 20px 10px radial-gradient(#050833, #00bec5, #ff0bac, #54086b) !important;
+    color: #50BFE6;
+    text-shadow:0px 0px 30px #fdec6e;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px #50BFE6;
+    -moz-box-shadow:    0px 0px 30px 0px #50BFE6;
+    box-shadow:         0px 0px 30px 0px #50BFE6;
+}
+
+.card-body{
+    padding: 3rem 0 !important;
+}
+
+
+.card-text{
+    font-size: .9rem;
+    padding: 0.4rem 1.9rem;
+}
+
+.container-fluid{
+    padding-top:6rem; 
+}
+
+.card-img-top{
+    min-height: 14rem;
+    max-height: 14rem;
+    transform: scale(1);
+    transition: transform 0.5s ease-in;
+}
+.card-img-top:hover{
+    transform: scale(1.8);
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+/* 
+body{
+    background:#1A1110 !important;
+} */
